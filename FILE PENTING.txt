@@ -1,0 +1,66 @@
+APP:
+- Controller :
+  BannerController
+  ConfigController
+  DashboardController
+  ExpertController
+  FaqController
+  LandingController
+  MessageController
+  PricingController
+  ServiceController
+  StatisticController
+  Folder Auth si cuman kalau udh dibikin authnya pake punyamu aja
+
+- Middleware :
+  Admin
+
+- Kernel.php (bagian akhirnya yang admin)
+
+- Model :
+  Banner
+  Company_sosmed
+  Config
+  Expert_detail
+  Expert_sosmed
+  Expert
+  Faq_detail
+  Faq
+  Message
+  Pricing_detail
+  Pricing_item
+  Pricing
+  Service_detail
+  Service
+  Sosmed
+  Statistic_detail
+  Statistic
+
+DATABASE:
+- Migrations :
+  2021_01_14_blablabla sampai 2021_02_04_blablabla
+  ( i hope u understand this haha )
+
+RESOURCES:
+- Views :
+  folder landing (semuanya)
+  folder layout (semuanya juga)
+  dashboard_admin
+  dashboard_respondent
+  home
+  landing_admin
+  landing
+  welcome
+
+itu aja sih, maap ngerepotin ya
+
+itu yang kemarin
+
+yang baru :
+FOLDER KELAS
+views di folder layouts (dashboard_admin.blade.php)
+FOLDER ASSET2 img (bab, kelas)
+web.php
+Model (Bab, Fasilitas, Kelas, Kelas_detail, Note, SubBab)
+Controller (FasilitasController, KelasController, NoteController, UserKelasController)
+
